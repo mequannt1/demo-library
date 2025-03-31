@@ -1,6 +1,6 @@
 {
   "name": "@mequ-demo-library/hooks",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -18,5 +18,5 @@
     "access": "public"
   },
   "gitHead": "170ff224de76ebe52582e129cb6cd966405db2bf",
-   "license": "MIT"
+  "license": "MIT"
 }
