@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "jsx": "react-jsx",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "outDir": "dist",
+    "baseUrl": ".",  // Set baseUrl to the root of the project
+    "paths": {
+      "@mequ-demo-library/ui": ["packages/ui/src"]  ,// Point to dist folder of UI package
+      
+      "@mequ-demo-library/auth": ["packages/auth/src"],
+      "@mequ-demo-library/hooks": ["packages/hooks/src"]
+    }
+  },
+  "include": [
+    "packages/**/*/src/**/*",
+    "packages/**/*/dist/**/*"  // Include dist folder for the UI package
+  ],
+  "exclude": ["node_modules", "dist"]
+}
